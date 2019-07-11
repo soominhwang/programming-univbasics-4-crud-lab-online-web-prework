@@ -23,12 +23,6 @@ def remove_element_from_end_of_array(array)
   array.pop
 end
 
-describe "remove_element_from_end_of_array" do
-  it "takes in an argument of an array and removes the last element in the array" do
-    array = ["I", "am", "really", "learning", "arrays!"]
-    expect(remove_element_from_end_of_array(array)).to eq("arrays!")
-
-
 
 def remove_element_from_start_of_array(array)
 
